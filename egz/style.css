@@ -1,0 +1,11 @@
+*{
+    font-family: Arial;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+header{
+    text-align: center;
+    margin: 30px;
+    background: radial-gradient(#4facfe 70%,#00f2fe 30%) ;
+    color: white;
+}   
