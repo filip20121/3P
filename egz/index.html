@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+    <h1>Portal edukacyjny</h1>
+    <p>Podstawowe pojęcia informatyczne</p>
+    </header>
+
+    <main>
+        <h2>Podstawowe pojęcia</h2>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Język znaczników służący do tworzenia struktury stron internetowych.</dd>
+            <dt>CSS</dt>
+            <dd>Język stylów używany do opisu wyglądu elementów HTML.</dd>
+            <dt>JavaScript</dt>
+            <dd>Język programowania umożliwiający tworzenie dynamicznych elementów stron.</dd>
+        </dl>
+        <h2>Wybór koloru</h2>
+        <form>
+            <label for="kolor-wybor">Wpisz lub wybierz kolor: </label>
+            <input list="kolory" id="kolor-wybor" name="kolor-wybor"/>
+            <datalist id="kolory">
+                <option value="red"></option>
+                <option value="blue"></option>
+                <option value="green"></option>
+                <option value="yellow"></option>
+            </datalist>
+            <button>Dodaj element</button>
+        </form>
+        <h2>Dodane elementy</h2>
+        <aside></aside>
+    </main>
+    <footer>Autor:Antoni Kamiński 3PB</footer>
+</body>
+</html>
